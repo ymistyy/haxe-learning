@@ -15,5 +15,6 @@ class Teller {
 class Main {
     static function main() {
     var p = new Teller(20);
+    p.countUp();
     }
 }

@@ -11,6 +11,7 @@ Teller.prototype = {
 };
 var Main = function() { };
 Main.main = function() {
+	new Teller(20).countUp();
 };
 var haxe_iterators_ArrayIterator = function(array) {
 	this.current = 0;
