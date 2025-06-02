@@ -1,4 +1,4 @@
 -cp src
 -D analyzer-optimize
 -main Main
---js game.js
+--js output.js
