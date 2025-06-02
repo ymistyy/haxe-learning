@@ -1,16 +1,11 @@
-class Main {
+class Main{
     static function main() {
-    var uitslag = 7;
+        sayHello("guy");
+    }
 
-    switch (uitslag) {
-        case 10:
-            trace ("Perfect!");
-        case 7:
-            trace ("Voldoende!");
-        case 4:
-            trace ("Onvoldoende");
-        default:
-            trace ("Unknown");
+    static function sayHello(name:String) {
+        trace ("Hiii!!" + name);
+
     }
+        
     }
-}

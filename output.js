@@ -2,7 +2,10 @@
 (function ($global) { "use strict";
 var Main = function() { };
 Main.main = function() {
-	console.log("src/Main.hx:9:","Voldoende!");
+	Main.sayHello("guy");
+};
+Main.sayHello = function(name) {
+	console.log("src/Main.hx:7:","Hiii!!" + name);
 };
 var haxe_iterators_ArrayIterator = function(array) {
 	this.current = 0;
